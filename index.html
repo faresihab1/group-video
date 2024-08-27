@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fares chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="language-selection">
+        <label for="language">Choose your language:</label>
+        <select id="language">
+            <option value="en">English</option>
+            <option value="ar">Arabic</option>
+        </select>
+    </div>
+    <h1>Fares Chat</h1>
+    <button id="join-btn" class="btn-primary"><i class="fas fa-sign-in-alt"></i> Join Meeting</button>
+
+    <div id="stream-wrapper" style="display:none;">
+        <div id="video-streams"></div>
+        
+        <div id="subtitles" class="subtitles"></div> <!-- Subtitles area -->
+
+        <div id="stream-controls">
+            <button id="leave-btn" class="btn-danger"><i class="fas fa-sign-out-alt"></i> Leave Stream</button>
+            <button id="mic-btn" class="btn-toggle"><i class="fas fa-microphone"></i> Mic On</button>
+            <button id="camera-btn" class="btn-toggle"><i class="fas fa-video"></i> Camera On</button>
+        </div>
+    </div>
+    
+</body>
+<script src="AgoraRTC_N-4.7.3.js"></script>
+<script src='main.js'></script>
+</html>

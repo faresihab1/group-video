@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+#language-selection {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-toggle {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-toggle.off {
+    background-color: #ffc107;
+    color: white;
+}
+
+#stream-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#video-streams {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-container {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-player {
+    width: 100%;
+    height: 100%;
+}
+
+.subtitles {
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none; /* Hidden by default */
+}
